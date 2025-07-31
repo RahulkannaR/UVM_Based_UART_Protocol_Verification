@@ -1,27 +1,3 @@
-"""
-Simulation automation for Mentor's QuestaSim (Questa targets).
-
-This script replicates the functionality of a complex Makefile.
-It defines targets for cleaning, compiling (sv_cmp), running various tests,
-viewing waveforms, merging coverage reports, and more.
-
-Project Directory Structure (example):
-├── agent
-├── env
-├── rtl
-├── sim      <-- This script may reside here or at the project top.
-├── test
-└── top
-
-Usage:
-    python sim.py [target]
-
-For example:
-    python sim.py help
-    python sim.py run_test
-    python sim.py view_wave1
-"""
-
 import os
 import subprocess
 import sys
